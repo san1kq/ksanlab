@@ -1,6 +1,3 @@
-// 10. Составить программу, которая для заданного римскими цифрами года
-// выводит его обычное значение(XX – 2020).
-
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <locale.h>
@@ -12,7 +9,7 @@ int main()
     int otvet;
 
     setlocale(LC_ALL, "rus");
-    printf("Введите год римскими цифрами: ");
+    printf("Р’РІРµРґРёС‚Рµ РєРѕРґ СЂРёРјСЃРєРёРјРё С†РёС„СЂР°РјРё: ");
     scanf("%s", rim);
 
     
@@ -103,7 +100,7 @@ int main()
     
     otvet = c1 + c2 + c3 + c4;
 
-    printf("Год в обычном формате: %d\n", otvet);
+    printf("Р“РѕРґ РІ РѕР±С‹С‡РЅРѕРј С„РѕСЂРјР°С‚Рµ: %d\n", otvet);
 
     return 0;
 }
